@@ -1,3 +1,9 @@
+macro_undo: macro_undo{
+compatible = "zmk,behavior-macro";
+label = "macro_undo";
+#binding-cells = <0>;
+bindings = <&kp K_UNDO>;
+};
 macro_tab: macro_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_tab";
