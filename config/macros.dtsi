@@ -1,3 +1,9 @@
+macro_tab: macro_tab{
+compatible = "zmk,behavior-macro";
+label = "macro_tab";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp W>;
+};
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
